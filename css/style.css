@@ -15,13 +15,9 @@ section {
 	position: absolute;
 	width: 100%;
 	margin: 0 auto;
-	/*height: 100%;*/
 	top: 50%;
 	text-align: center;
-	/*vertical-align: middle;*/
 	transform: translateY(-50%);
-
-
 }
 
 .intro {
@@ -55,3 +51,65 @@ section {
 
 }
 
+i {
+  display: inline-block;
+  margin: 1rem;
+  font-size: 5rem;
+}
+
+.contactIcons {
+	display: inline-table;
+}
+
+.contactIcons img {
+	height: 40px;
+	width: 40px;
+	margin: 0.5em;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * SVG * * * * * * * * * * * * * * * * * * * */
+#svg-container {
+	position: relative;
+	width: 360px;
+	height: 110px;
+	margin: 40vh auto 0 auto;
+}
+#svg-canvas {
+	position: relative;
+	width: 360px;
+	height: 110px;
+}
+.title {
+stroke-dasharray: 500;
+stroke-dashoffset: 500;
+animation: draw 5s linear forwards;
+-webkit-animation: draw 8s linear forwards;
+-moz-animation: draw 8s linear forwards;
+-o-animation: draw 8s linear forwards;
+font-weight: bold;
+/*font-family: Amatic SC;*/
+/*-inkscape-font-specification: Amatic SC Bold*/
+}
+
+@keyframes draw {
+to {
+	stroke-dashoffset: 0;
+	}
+}
+@-webkit-keyframes draw {
+to {
+	stroke-dashoffset: 0;
+	}
+}
+
+@-moz-keyframes draw {
+to {
+	stroke-dashoffset: 0;
+	}
+}
+@-o-keyframes draw {
+to {
+	stroke-dashoffset: 0;
+	}
+}
