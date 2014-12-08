@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,700,200);
+
+body {
+	/*background-color: black;*/
+	color: white;
+	font-family: 'Lato', sans-serif;
+	text-shadow: 1px 1px black;
+	text-align: center;
+}
+
+.intro {
+	background: url('../images/versailles.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.elevator {
+	background: url('../images/londoneye.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.examples {
+	background: url('../images/flatiron.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.resume {
+	background: url('../images/operahouse.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.hobbies {
+	background: url('../images/brooklyn.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.contact {
+	background: url('../images/ocean.jpg')  no-repeat center center;
+	background-size: cover;
+
+}
