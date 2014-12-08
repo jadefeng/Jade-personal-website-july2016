@@ -2,11 +2,25 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,500,700,200);
 
 body {
-	/*background-color: black;*/
-	color: white;
 	font-family: 'Lato', sans-serif;
+	color: white;
 	text-shadow: 1px 1px black;
+}
+
+section {
+	position: relative;	
+}
+
+.textbox {
+	position: absolute;
+	width: 100%;
+	/*height: 100%;*/
+	top: 50%;
 	text-align: center;
+	/*vertical-align: middle;*/
+	transform: translateY(-50%);
+
+
 }
 
 .intro {
@@ -20,12 +34,12 @@ body {
 }
 
 .examples {
-	background: url('../images/nestcolour.jpg') no-repeat center center;
+	background: url('../images/operahouse.jpg') no-repeat center center;
 	background-size: cover;
 }
 
 .resume {
-	background: url('../images/operahouse.jpg') no-repeat center center;
+	background: url('../images/stairs.jpg') no-repeat center center;
 	background-size: cover;
 }
 
@@ -39,3 +53,4 @@ body {
 	background-size: cover;
 
 }
+
