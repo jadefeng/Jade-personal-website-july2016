@@ -84,9 +84,10 @@ section {
 }
 
 i {
-  display: inline-block;
-  margin: 1rem;
-  font-size: 5rem;
+  	display: inline-block;
+  	margin: 1rem;
+  	font-size: 5rem;
+	text-shadow: none;
 }
 
 ul {
@@ -286,26 +287,3 @@ button:hover {
 #expCarousel {
 	height: 400px;
 }
-
-/*#carouselDemo
-{
-	margin-top: 10px;
-	width: 100%;
-	height: 40%;
-}
-
-.carousel *
-{
-	position: absolute;
-	height: 250px;
-	width: auto;
-}
-
-.circle
-{
-	width: 50px;
-	height: 50px;
-	border-radius: 100%;
-	background-color: blue;
-}
-*/
