@@ -276,7 +276,18 @@ button:hover {
 
 /*Carousel*/
 
-#carouselDemo
+.carousel > *
+{
+    position: absolute;
+	height: 200px;
+	width: auto;
+}
+
+#expCarousel {
+	height: 400px;
+}
+
+/*#carouselDemo
 {
 	margin-top: 10px;
 	width: 100%;
@@ -297,3 +308,4 @@ button:hover {
 	border-radius: 100%;
 	background-color: blue;
 }
+*/
