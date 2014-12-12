@@ -71,6 +71,11 @@ section {
 	background-size: cover;
 }
 
+#examples2 {
+	background: url('../images/windows.jpg') no-repeat center center;
+	background-size: cover;	
+}
+
 #resume {
 	background: url('../images/flatiron.jpg') no-repeat center center;
 	background-size: cover;
@@ -228,14 +233,14 @@ button:hover {
 	/* * * * * * * * * * * * * * * * * * * SVG * * * * * * * * * * * * * * * * * * * */
 		#svg-container {
 			position: relative;
-			width: 75%;
+			width: 50%;
 			height: 300px;
-			margin: 10px;
-			margin-left: auto;
+			/*margin: 10px;*/
+			margin: auto;
 			padding: 10px;
 		}
 		#svg-canvas {
-			text-align: center;
+			/*text-align: center;*/
 			/*position: relative;*/
 			width: 100%;
 			height: 100%;
