@@ -234,6 +234,7 @@ button:hover {
 	/* * * * * * * * * * * * * * * * * * * SVG * * * * * * * * * * * * * * * * * * * */
 		#svg-container {
 			position: relative;
+			/*float: center;*/
 			width: 50%;
 			height: 300px;
 			/*margin: 10px;*/
@@ -241,6 +242,7 @@ button:hover {
 			padding: 10px;
 		}
 		#svg-canvas {
+			float: center;
 			/*text-align: center;*/
 			/*position: relative;*/
 			width: 100%;
