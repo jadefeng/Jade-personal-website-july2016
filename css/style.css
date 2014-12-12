@@ -43,6 +43,11 @@ section {
 	filter: blur(5px);*/	
 }
 
+.nameHeading {
+	font-size: 100px;
+	font-style: 'Raleway', sans-serif;
+
+}
 .textbox {
 	/*z-index: 9999;*/
 	position: absolute;
@@ -234,7 +239,7 @@ button:hover {
 	/* * * * * * * * * * * * * * * * * * * SVG * * * * * * * * * * * * * * * * * * * */
 		#svg-container {
 			position: relative;
-			/*float: center;*/
+			float: center;
 			width: 50%;
 			height: 300px;
 			/*margin: 10px;*/
@@ -243,8 +248,8 @@ button:hover {
 		}
 		#svg-canvas {
 			float: center;
-			/*text-align: center;*/
-			/*position: relative;*/
+			text-align: center;
+			position: relative;
 			width: 100%;
 			height: 100%;
 		}
