@@ -62,7 +62,7 @@ section {
 }
 
 #intro {
-	background: url('../images/versailles.jpg') no-repeat center center fixed;
+	background: url('../images/rock.jpg') no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -77,7 +77,7 @@ section {
 }
 
 #examples2 {
-	background: url('../images/windows.jpg') no-repeat center center;
+	background: url('../images/flatiron.jpg') no-repeat center center;
 	background-size: cover;	
 }
 
