@@ -1,0 +1,30 @@
+/*header*/
+
+#h {
+	background-image: 
+		linear-gradient(rgba(0, 182, 255, 0.7), 
+		rgba(0, 182, 255, 0.7)), 
+		url(http://s3.amazonaws.com/somebodyio-production/pages/face_photos/000/000/071/hero/profilephoto.jpeg?1462479145);
+}
+
+.avatar img {
+	border-radius: 100%;
+	overflow: hidden;
+	width: 300px;
+	height: 300px;
+}
+
+h5.a1 {
+	padding-left:10px;
+	padding-right:10px;
+	color:white;
+}
+
+.portfolio-item {
+	height: 300px;
+}
+
+.tpl6 img {
+	height: 250px;
+}
+
